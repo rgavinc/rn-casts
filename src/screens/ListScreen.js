@@ -1,9 +1,7 @@
 import React from "react";
-import styled from "styled-components";
+import styled from "styled-components/native";
 
-const FlatList = styled.FlatList`
-  font-size: ${({ fontSize }) => (fontSize ? fontSize : 20)};
-`;
+const FlatList = styled.FlatList``;
 const Text = styled.Text`
   font-size: ${({ fontSize }) => (fontSize ? fontSize : 20)};
   margin-bottom: 50;
