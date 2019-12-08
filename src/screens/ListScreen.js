@@ -27,9 +27,7 @@ const ListScreen = () => {
       renderItem={({ item: { name, age } }) => (
         <Text fontSize={40}>{`${name} - Age ${age}`}</Text>
       )}
-    >
-      List Screen
-    </FlatList>
+    />
   );
 };
 

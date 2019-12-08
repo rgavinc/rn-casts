@@ -1,9 +1,5 @@
 import React from "react";
-import styled from "styled-components/native";
-
-const Text = styled.Text`
-  font-size: ${({ fontSize }) => (fontSize ? fontSize : 20)};
-`;
+import { Text } from "../components/basicComponents";
 
 const ListScreen = () => {
   return <Text>List Screen</Text>;
